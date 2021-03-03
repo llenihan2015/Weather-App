@@ -1,0 +1,160 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color:white;
+    font-family: 'Lato', 'Sans-serif';
+}
+h1{
+    font-size:65px;
+    font-weight: bold;
+    font-family: 'Montserrat' , 'Sans-Serif';
+}
+
+
+h3{
+    font-size:35px;
+    font-family: 'Poppins' , 'Sans-Serif';
+}
+
+
+iframe{
+    width: 97%;
+    height: 97%;
+	margin: 5px 5px 5px 5px
+}
+
+#map:hover,#home:hover, #weather:hover, #currency:hover, #map:focus, #home:focus, #weather:focus, #currency:focus{
+    border-style: solid;
+    border-color: black;
+    border-width: 2.2px;
+    border-radius: 25px;
+    background-color: white;
+    color:black;
+    font-family: 'Lato', 'Sans-serif';
+	font-size: 25px;
+}
+#home{
+    font-weight: bold;
+    width: 24%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', 'Sans-serif';
+    font-size: 25px;
+    padding-left: 3px;
+    
+}
+#map{
+    font-weight: bold;
+    width: 25%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', 'Sans-serif';
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+#weather{
+    font-weight: bold;
+    width: 25%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', 'Sans-serif';
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+#currency{
+    font-weight: bold;
+    width: 25%;
+    height: 20%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', 'Sans-serif';
+    font-size: 25px;
+    padding-left: 3px;
+}
+#menu{
+    font-size: 14px !important;
+}
+#loc{
+    text-align: center;
+}
+
+#search,#arrow{
+    width: 40px;
+    height:30px;
+    top: 244px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.fas{
+    font-size: 18px !important;
+}
+
+#location{
+    font-size: 20px;
+    width: 254px;
+    height: 40px;
+    font-weight: 500;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.8px;
+    font-family: 'Lato', 'Sans-serif';
+}
+
+::placeholder{
+    color:black;
+}
+
+
+#content {
+  font-family: Tahoma, 'sans-serif' ;
+  text-align:center;
+  background-color:white;
+  overflow: auto; /* or overflow: hidden; */
+}
+
+
+
+.navbar{
+    text-align: center;
+    padding-top: 5px;
+}
+.hide{
+    display: none;  
+}
+
+#loc{
+    padding-top: 10%;
+}
+
+
+#map-content{
+    width:500px;
+    height: 300px;
+    margin: 10% auto;
+    text-align: center;
+}

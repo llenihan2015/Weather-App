@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title> MY FAU APP </title>
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=Montserrat&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+        <!--JavaScript-->
+        <script src="https://kit.fontawesome.com/878cfd8419.js" crossorigin="anonymous"></script>
+         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7lpIDne7SLXlOqdLStzb4SS3CxSPMQZI"
+  type="text/javascript"></script>
+        <script src="js/main.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/currency.js"></script>
+        
+        
+    </head>
+    <body>
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" id="header">
+                    <button id ="home"><p id="hometext"><i class="fas fa-home" id="menu"></i> Home</p></button>
+                    <button id ="map"><p><i class="fas fa-map-marked-alt" id="menu"></i> Map</p></button>
+                    <button id ="weather"><p><i class="fas fa-cloud-sun-rain" id="menu" ></i> Weather</p></button>
+                    <button id ="currency"><p><i class="fas fa-coins" id="menu"></i> Currency</p></button>
+                </div>
+            </div>
+         </nav>
+
+        <div id="loc" class="hide">
+                <input type="text" class="form-control" placeholder="Enter City, State or Zip Code" id="location"></input>
+                <button id="search"><i class="fas fa-search"></i> </button> 
+                <button id="arrow"><i class="fas fa-map-marker-alt"></i> </button> 
+                <br>
+                <br>
+                <p> Please enter City, State, or Zip Code<br>
+                    or Click on Current Location </p>
+        </div>
+   
+        <div id="content"></div>
+        <div id="weather-content"></div>
+        <div id="city-name"></div>
+        <div id="map-content"></div>
+        <div id="currency-content"></div>
+
+
+        <!--
+        <div id="wrapper">
+            <button id="new"> New Search </button>
+        </div>
+        -->
+
+
+    </body>
+</HTML>
